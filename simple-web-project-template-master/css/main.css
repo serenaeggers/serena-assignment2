@@ -104,3 +104,18 @@ h2
 {
    margin-bottom: 1em;
 }
+
+.review ol
+{
+   list-style: decimal;
+   list-style-position: inside;
+   text-indent: 40px;
+   color: #b56b66;
+}
+
+.reviewer
+{
+   font-weight: 400;
+   text-align: right;
+}
+
