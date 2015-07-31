@@ -12,7 +12,13 @@ body
 
 header
 {
-   margin-left: 40%;
+   margin-left: 55%;
+   margin-right: 7%;
+   margin-top: 175px;
+
+   font-variant: small-caps;
+   font-size: 4em;
+   font-weight: 300;
 }
 
 main
