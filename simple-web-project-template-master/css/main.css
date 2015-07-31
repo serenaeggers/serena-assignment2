@@ -91,3 +91,16 @@ h2
    font-size: 3em;
    margin-bottom: 1em;
 }
+
+.review
+{
+   font-size: 1.2rem;
+   text-indent: 20px;
+   border-top: 1px solid #b56b66;
+   padding-top: 1em;
+}
+
+.review p
+{
+   margin-bottom: 1em;
+}
