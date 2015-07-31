@@ -1,3 +1,7 @@
+b
+{
+   font-weight: 400;
+}
 
 body
 {
@@ -8,19 +12,19 @@ body
    background-size: 100% auto;
 
    font-family: 'Lato', sans-serif;
+   font-weight: 300;
 }
 
 header
 {
-   line-height: 0;
+   line-height: 1em;
    margin-left: 55%;
    margin-right: 7%;
-   margin-top: 225px;
-   margin-bottom: 200px;
+   margin-top: 135px;
+   margin-bottom: 150px;
 
    font-variant: small-caps;
    font-size: 4em;
-   font-weight: 300;
 }
 
 header span
@@ -29,7 +33,7 @@ header span
    left: 25%;
    top: 200px;
    font-size: 2em;
-   line-height: 0;
+   line-height: 1rem;
 }
 
 main
@@ -41,5 +45,17 @@ main
 .album
 {
    font-size: 1.5em;
-   font-weight: 300;
+}
+
+.album div
+{
+   text-indent: 40px;
+   color: #b56b66;
+   font-style: italic;
+   margin-bottom: 1.5rem;
+}
+
+.album p
+{
+   text-align: right;
 }
