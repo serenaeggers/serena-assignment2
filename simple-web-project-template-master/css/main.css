@@ -3,6 +3,11 @@ b
    font-weight: 400;
 }
 
+i
+{
+   font-style: italic;
+}
+
 body
 {
    background-image: url(../img/bg.jpg);
@@ -52,10 +57,32 @@ main
    text-indent: 40px;
    color: #b56b66;
    font-style: italic;
-   margin-bottom: 1.5rem;
+   padding-bottom: 1.5rem;
 }
 
 .album p
 {
    text-align: right;
 }
+
+.album ol
+{
+   list-style: decimal;
+   line-height: 1.5em;
+}
+
+.album ol>li~li
+{
+   border-top: 1px solid black;
+   padding-top: 20px;
+}
+
+.album ul
+{
+   margin-left: 40px;
+   line-height: 1em;
+   text-align: right;
+   color: #b56b66;
+}
+
+
