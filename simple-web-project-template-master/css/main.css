@@ -85,4 +85,9 @@ main
    color: #b56b66;
 }
 
-
+h2
+{
+   font-variant: small-caps;
+   font-size: 3em;
+   margin-bottom: 1em;
+}
