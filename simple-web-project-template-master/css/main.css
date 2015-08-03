@@ -59,11 +59,11 @@ main {
   line-height: 1.5em;
 }
 
-.album ol > li ~ li {
-  border-top: 1px solid black;
-  padding-top: 20px;
-}
-
+/*.album ol>li~li
+{
+   border-top: 1px solid black;
+   padding-top: 20px;
+}*/
 .album ul {
   margin-left: 40px;
   line-height: 1em;
