@@ -1,121 +1,101 @@
-b
-{
-   font-weight: 400;
+b {
+  font-weight: 400;
 }
 
-i
-{
-   font-style: italic;
+i {
+  font-style: italic;
 }
 
-body
-{
-   background-image: url(../img/bg.jpg);
-   background-attachment: fixed;
-   background-position: bottom left;
-   background-repeat: no-repeat;
-   background-size: 100% auto;
-
-   font-family: 'Lato', sans-serif;
-   font-weight: 300;
+body {
+  background-image: url(../img/bg.jpg);
+  background-attachment: fixed;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
-header
-{
-   line-height: 1em;
-   margin-left: 55%;
-   margin-right: 7%;
-   margin-top: 135px;
-   margin-bottom: 150px;
-
-   font-variant: small-caps;
-   font-size: 4em;
+header {
+  line-height: 1em;
+  margin-left: 55%;
+  margin-right: 7%;
+  margin-top: 135px;
+  margin-bottom: 150px;
+  font-variant: small-caps;
+  font-size: 4em;
 }
 
-header span
-{
-   position: fixed;
-   left: 25%;
-   top: 200px;
-   font-size: 2em;
-   line-height: 1rem;
+header span {
+  position: fixed;
+  left: 25%;
+  top: 200px;
+  font-size: 2em;
+  line-height: 1rem;
 }
 
-main
-{
-   margin-left: 55%;
-   margin-right: 7%;
+main {
+  margin-left: 55%;
+  margin-right: 7%;
 }
 
-.album
-{
-   font-size: 1.5em;
+.album {
+  font-size: 1.5em;
 }
 
-.album div
-{
-   text-indent: 40px;
-   color: #b56b66;
-   font-style: italic;
-   padding-bottom: 1.5rem;
+.album div {
+  text-indent: 40px;
+  color: #b56b66;
+  font-style: italic;
+  padding-bottom: 1.5rem;
 }
 
-.album p
-{
-   text-align: right;
+.album p {
+  text-align: right;
 }
 
-.album ol
-{
-   list-style: decimal;
-   line-height: 1.5em;
+.album ol {
+  list-style: decimal;
+  line-height: 1.5em;
 }
 
-.album ol>li~li
-{
-   border-top: 1px solid black;
-   padding-top: 20px;
+.album ol > li ~ li {
+  border-top: 1px solid black;
+  padding-top: 20px;
 }
 
-.album ul
-{
-   margin-left: 40px;
-   line-height: 1em;
-   text-align: right;
-   color: #b56b66;
+.album ul {
+  margin-left: 40px;
+  line-height: 1em;
+  text-align: right;
+  color: #b56b66;
 }
 
-h2
-{
-   font-variant: small-caps;
-   font-size: 3em;
-   margin-bottom: 1em;
+h2 {
+  font-variant: small-caps;
+  font-size: 3em;
+  margin-bottom: 1em;
 }
 
-.review
-{
-   font-size: 1.2rem;
-   text-indent: 20px;
-   border-top: 1px solid #b56b66;
-   padding-top: 1em;
+.review {
+  font-size: 1.2rem;
+  text-indent: 20px;
+  border-top: 1px solid #b56b66;
+  padding-top: 1em;
 }
 
-.review p
-{
-   margin-bottom: 1em;
+.review p {
+  margin-bottom: 1em;
 }
 
-.review ol
-{
-   list-style: decimal;
-   list-style-position: inside;
-   text-indent: 40px;
-   color: #b56b66;
+.review ol {
+  list-style: decimal;
+  list-style-position: inside;
+  text-indent: 40px;
+  color: #b56b66;
 }
 
-.reviewer
-{
-   font-weight: 400;
-   text-align: right;
+.reviewer {
+  font-weight: 400;
+  text-align: right;
 }
-
