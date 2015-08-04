@@ -162,9 +162,9 @@ h2
 
    header span
    {
-      font-size: 7rem;
-      top: 10%;
-      left: 10%;
+      font-size: 150%;
+      top: 30px;
+      left: 20%;
       background-color: white;
    }
 
@@ -179,7 +179,7 @@ h2
    background-color: white;
    position: fixed;
    top: 0;
-   padding-left: 50%;
+   padding-left: 20%;
    width: 900px;
    height: 90px;
    }
@@ -187,16 +187,26 @@ h2
    main
    {
       font-size: 0.9rem;
-      margin-left: 30%;
+      background-color: rgba(255,255,255,0.85);
+      margin-left: 10%;
       margin-right: 10%;
       padding-top: 250px;
       padding-bottom: 30%;
+      padding-left: 50px;
+      padding-right: 30px;
    }
 
 body
-   {
-      background-size: 70% auto;
-   }
+{
+   background-size: auto 100%;
+}
+
+.shield
+{
+   width: 100%;
+   height: 100%;
+   background-color: rgba(255,255,255,0.6);
+}
 
 .album
 {
@@ -208,5 +218,4 @@ body
    padding-top: 3em;
    padding-bottom: 3.7em;
 }
-
 }
