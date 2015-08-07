@@ -1,3 +1,5 @@
+@import '_base.scss';
+
 b
 {
    font-weight: 400;
@@ -30,15 +32,15 @@ header
 
    font-variant: small-caps;
    font-size: 4em;
-}
 
-header span
-{
-   position: fixed;
-   left: 25%;
-   top: 200px;
-   font-size: 2em;
-   line-height: 1rem;
+   span
+   {
+      position: fixed;
+      left: 25%;
+      top: 200px;
+      font-size: 2em;
+      line-height: 1rem;
+   }
 }
 
 main
@@ -50,26 +52,25 @@ main
 .album
 {
    font-size: 1.5em;
-}
 
-.album div
-{
-   text-indent: 40px;
-   color: #b56b66;
-   font-style: italic;
-   padding-bottom: 1.5rem;
-}
+   div
+   {
+      text-indent: 40px;
+      color: #b56b66;
+      font-style: italic;
+      padding-bottom: 1.5rem;
+   }
 
-.album p
-{
-   text-align: right;
-}
+    p
+   {
+      text-align: right;
+   }
 
-.album ol
-{
-   list-style: decimal;
-   line-height: 1.5em;
-}
+   ol
+   {
+      list-style: decimal;
+      line-height: 1.5em;
+   }
 
 /*.album ol>li~li
 {
@@ -77,12 +78,14 @@ main
    padding-top: 20px;
 }*/
 
-.album ul
-{
-   margin-left: 40px;
-   line-height: 1em;
-   text-align: right;
-   color: #b56b66;
+   ul
+   {
+      margin-left: 40px;
+      line-height: 1em;
+      text-align: right;
+      color: #b56b66;
+   }
+
 }
 
 h2
@@ -99,19 +102,19 @@ h2
    border-top: 1px solid #b56b66;
    padding-top: 2em;
    padding-bottom: 2em;
-}
 
-.review p
-{
-   margin-bottom: 1em;
-}
+   p
+   {
+      margin-bottom: 1em;
+   }
 
-.review ol
-{
-   list-style: decimal;
-   list-style-position: inside;
-   text-indent: 40px;
-   color: #b56b66;
+   ol
+   {
+      list-style: decimal;
+      list-style-position: inside;
+      text-indent: 40px;
+      color: #b56b66;
+   }
 }
 
 .reviewer
@@ -126,12 +129,13 @@ h2
    {
       margin-top: 173px;
       margin-bottom: 65px;
-   }
-   header span
-   {
-      font-size: 7rem;
-      top: 40%;
-      left: 23%;
+
+   span
+      {
+         font-size: 7rem;
+         top: 40%;
+         left: 23%;
+      }
    }
 }
 
@@ -141,13 +145,14 @@ h2
    {
       margin-top: 205px;
       margin-bottom: 50px;
-   }
 
-   header span
-   {
-      font-size: 7rem;
-      top: 45%;
-      left: 23%;
+
+   span
+      {
+         font-size: 7rem;
+         top: 45%;
+         left: 23%;
+      }
    }
 
    main
@@ -160,16 +165,16 @@ h2
 @media all and (max-width: 950px)
 {
 
-   header span
-   {
-      font-size: 150%;
-      top: 30px;
-      left: 20%;
-      background-color: white;
-   }
-
    header
-{
+   {
+      span
+      {
+         font-size: 150%;
+         top: 30px;
+         left: 20%;
+         background-color: white;
+      }
+
    font-size: 3rem;
    padding-top: 20px;
    padding-bottom: 30px;
@@ -211,11 +216,12 @@ body
 .album
 {
    padding-top: 30px;
-}
 
-.album div:nth-child(1)
-{
-   padding-top: 3em;
-   padding-bottom: 3.7em;
+
+   div:nth-child(1)
+   {
+      padding-top: 3em;
+      padding-bottom: 3.7em;
+   }
 }
 }

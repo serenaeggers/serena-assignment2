@@ -1,3 +1,57 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 b {
   font-weight: 400;
 }
@@ -25,7 +79,6 @@ header {
   font-variant: small-caps;
   font-size: 4em;
 }
-
 header span {
   position: fixed;
   left: 25%;
@@ -41,29 +94,25 @@ main {
 
 .album {
   font-size: 1.5em;
+  /*.album ol>li~li
+  {
+     border-top: 1px solid black;
+     padding-top: 20px;
+  }*/
 }
-
 .album div {
   text-indent: 40px;
   color: #b56b66;
   font-style: italic;
   padding-bottom: 1.5rem;
 }
-
 .album p {
   text-align: right;
 }
-
 .album ol {
   list-style: decimal;
   line-height: 1.5em;
 }
-
-/*.album ol>li~li
-{
-   border-top: 1px solid black;
-   padding-top: 20px;
-}*/
 .album ul {
   margin-left: 40px;
   line-height: 1em;
@@ -84,11 +133,9 @@ h2 {
   padding-top: 2em;
   padding-bottom: 2em;
 }
-
 .review p {
   margin-bottom: 1em;
 }
-
 .review ol {
   list-style: decimal;
   list-style-position: inside;
@@ -106,7 +153,6 @@ h2 {
     margin-top: 173px;
     margin-bottom: 65px;
   }
-
   header span {
     font-size: 7rem;
     top: 40%;
@@ -118,7 +164,6 @@ h2 {
     margin-top: 205px;
     margin-bottom: 50px;
   }
-
   header span {
     font-size: 7rem;
     top: 45%;
@@ -131,13 +176,6 @@ h2 {
   }
 }
 @media all and (max-width: 950px) {
-  header span {
-    font-size: 150%;
-    top: 30px;
-    left: 20%;
-    background-color: white;
-  }
-
   header {
     font-size: 3rem;
     padding-top: 20px;
@@ -151,6 +189,12 @@ h2 {
     padding-left: 20%;
     width: 900px;
     height: 90px;
+  }
+  header span {
+    font-size: 150%;
+    top: 30px;
+    left: 20%;
+    background-color: white;
   }
 
   main {
@@ -177,7 +221,6 @@ h2 {
   .album {
     padding-top: 30px;
   }
-
   .album div:nth-child(1) {
     padding-top: 3em;
     padding-bottom: 3.7em;
